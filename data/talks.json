@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2026-10",
+    "event": "tais manila 2026",
+    "where": "manila, philippines · test automation innovation summit",
+    "title": "hello, is this a bug? testing voice ai agents that talk back",
+    "url": "https://www.testautomationinnovationsummit.com/manila",
+    "note": "hands-on workshop.",
+    "upcoming": true,
+    "featured": true
+  },
+  {
+    "date": "2026-10",
+    "event": "bms institute of technology",
+    "where": "bengaluru, india",
+    "title": "generative ai workshop",
+    "note": "~500 students - everyone shipped a voice agent with the bolna claude connector.",
+    "featured": true
+  },
+  {
+    "date": "2026-10",
+    "event": "bolna mcp live",
+    "where": "online",
+    "title": "build, break, diagnose, fix",
+    "note": "live workshop building and debugging a voice agent entirely through mcp."
+  },
+  {
+    "date": "2026-09",
+    "event": "campus builders",
+    "where": "pes university · rv college of engineering · iiit hyderabad",
+    "title": "voice agents workshops",
+    "url": "https://www.bolna.ai/campus",
+    "note": "launched bolna's student chapters."
+  },
+  {
+    "date": "2026-08",
+    "event": "mcp dev summit seoul",
+    "where": "seoul, south korea",
+    "title": "your mcp server behaves differently in every client: a cross-client field guide for server authors",
+    "url": "https://mcpseoul2026.sched.com/event/2PYdt/your-mcp-server-behaves-differently-in-every-client-a-cross-client-field-guide-for-server-authors-tanisha-sharma-bolna-animesh-pathak-harness",
+    "note": "with animesh pathak (harness).",
+    "featured": true
+  },
+  {
+    "date": "2026-08",
+    "event": "mcp dev summit seoul",
+    "where": "seoul, south korea",
+    "title": "two audiences, one markdown file: writing mcp docs an agent can actually use",
+    "url": "https://mcpseoul2026.sched.com/event/2PYe2/two-audiences-one-markdown-file-writing-mcp-docs-an-agent-can-actually-use-tanisha-sharma-bolna-jyoti-bisht-independent",
+    "note": "with jyoti bisht.",
+    "featured": true,
+    "video": "U_XD5NxO8KY"
+  },
+  {
+    "date": "2026-07",
+    "event": "nexuscon26",
+    "where": "bengaluru, india",
+    "title": "architects round table",
+    "url": "https://www.nexuscon.in/",
+    "note": "panel."
+  },
+  {
+    "date": "2026-03",
+    "event": "scale 23x · planetnix",
+    "where": "pasadena, usa",
+    "title": "when automation decides what you see: making notification pipelines reproducible with nix",
+    "url": "https://www.socallinuxexpo.org/scale/23x/presentations/when-automation-decides-what-you-see-making-notification-pipelines",
+    "featured": true
+  },
+  {
+    "date": "2025-11",
+    "event": "shift kuala lumpur",
+    "where": "kuala lumpur, malaysia",
+    "title": "notifications could be smarter with ai",
+    "url": "https://shiftmag.dev/notifications-could-be-smarter-with-ai-so-why-arent-they-7087/",
+    "note": "covered by shiftmag.",
+    "featured": true
+  },
+  {
+    "date": "2026-06",
+    "event": "fork it! rouen 2026",
+    "where": "rouen, france",
+    "title": "my ai clone attended conferences while i flew planes",
+    "url": "https://youtu.be/5qcWWPKU49o",
+    "note": "building an ai clone with llms, rag and mcp.",
+    "video": "5qcWWPKU49o",
+    "featured": true
+  },
+  {
+    "date": "2026-07",
+    "event": "podcast · kartik agarwal",
+    "where": "youtube",
+    "title": "devrel engineer explained: salary, skills &amp; travel perks",
+    "url": "https://youtu.be/hs9uybjdp7U",
+    "note": "guest episode on what devrel actually is.",
+    "video": "hs9uybjdp7U"
+  }
+]

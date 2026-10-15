@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js")</script>
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="author" content="tanisha sharma">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="canonical" href="{{canonical}}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="tanisha sharma">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@tanishasharmax">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {{scripts}}
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="site-title" href="/">tanisha</a>
+      <nav class="main-nav">{{nav}}</nav>
+    </div>
+  </header>
+
+  <main class="container">
+{{content}}
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-text"><span class="prompt">$</span> echo "made with caffeine &amp; curiosity · {{year}}"</p>
+      <p class="footer-links">
+        <a href="mailto:reachtanishasharma@gmail.com">email</a>
+        <a href="https://linkedin.com/in/tanisha-sharma07">linkedin</a>
+        <a href="https://github.com/tanisha-byte">github</a>
+        <a href="https://twitter.com/tanishasharmax">x</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

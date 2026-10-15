@@ -1,0 +1,133 @@
+<!-- {"title": "home", "scripts": ["home.js"]} -->
+<canvas id="matrix-bg"></canvas>
+<div id="matrix-hint">click anywhere · vibe shift</div>
+
+<section class="hero">
+  <div id="boot" class="boot-box">
+    <p class="hero-pre"><span class="prompt">tanisha@earth:~$</span> <span id="boot-cmd"></span><span class="cursor" id="boot-cursor"></span></p>
+    <pre id="boot-out" class="boot-out"></pre>
+    <p class="boot-skip" id="boot-skip">[ click anywhere to skip ]</p>
+  </div>
+
+  <div id="hero-content" class="hero-content">
+    <h1>hi, i'm <span class="grad">tanisha</span></h1>
+    <p class="tagline">
+      <span class="role">devrel @ bolna (yc f25)</span> · ex-suprsend · ex-microsoft (azure) ·
+      {{ count what=talks }} talks · pilot · dj · crocheter · ai safety scholar ·
+      founder, project hitl · co-founder, chae (matcha).
+    </p>
+    <p class="currently">
+      <span class="dot"></span><span class="label">currently_</span>
+      building voice ai devtools at <a href="https://www.bolna.ai">bolna</a> - the
+      <a href="https://github.com/bolna-ai/mcp">mcp server</a>, the <a href="https://github.com/bolna-ai/cli">cli</a>,
+      the <a href="https://www.bolna.ai/docs">docs</a> and the <a href="https://www.bolna.ai/blog">blog</a> -
+      running <a href="https://www.bolna.ai/builders">bolna builders</a>, and building
+      <a href="https://projecthumansintheloop.com">project hitl</a> on the side.
+    </p>
+    <div class="hero-actions">
+      <a class="btn" href="/work">./work</a>
+      <a class="btn btn-secondary" href="/talks">./talks</a>
+      <a class="btn btn-secondary" href="mailto:reachtanishasharma@gmail.com">./reach-out</a>
+    </div>
+    {{ stats }}
+  </div>
+</section>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>now/ - voice ai devrel at bolna</h2></div>
+  <div class="fact-list">
+    <div class="fact"><span class="key">mcp/</span><span class="val">built the <a href="https://github.com/bolna-ai/mcp">bolna mcp server</a> from scratch - 90+ tools, live at <a href="https://mcp.bolna.ai">mcp.bolna.ai</a>, works in claude code, cursor &amp; co.</span></div>
+    <div class="fact"><span class="key">cli/</span><span class="val">built the <a href="https://github.com/bolna-ai/cli">bolna cli</a> (go + charm tui) from scratch.</span></div>
+    <div class="fact"><span class="key">integrations/</span><span class="val">bolna on claude, openai, composio, make, <a href="https://github.com/bolna-ai/n8n-nodes-bolna">n8n</a> and zapier.</span></div>
+    <div class="fact"><span class="key">docs/</span><span class="val">restructured <a href="https://www.bolna.ai/docs">bolna.ai/docs</a> on diátaxis; wrote 125+ pages.</span></div>
+    <div class="fact"><span class="key">blog/</span><span class="val">migrated and run <a href="https://www.bolna.ai/blog">bolna.ai/blog</a> - wordpress → next.js.</span></div>
+    <div class="fact"><span class="key">community/</span><span class="val"><a href="https://www.bolna.ai/builders">bolna builders</a> + <a href="https://www.bolna.ai/campus">campus builders</a> at pes, rvce &amp; iiit hyderabad.</span></div>
+  </div>
+  <p class="more"><a href="/work">→ everything on /work</a></p>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>on_stage/</h2><span class="count">{{ count what=talks }} talks &amp; workshops</span></div>
+  {{ talks featured=1 limit=6 }}
+  <p class="more"><a href="/talks">→ all talks &amp; recordings</a></p>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>youtube/ - bolna</h2></div>
+  {{ videos group=bolna limit=3 }}
+  <p class="more"><a href="/talks#videos">→ more videos</a></p>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>building/ - project hitl</h2></div>
+  <article class="card feature-card">
+    <p class="meta">founder · may 2025 → present</p>
+    <h3><a href="https://projecthumansintheloop.com">project hitl · humans in the loop</a></h3>
+    <p>
+      a community for the people working at the seam between ai systems and the humans who
+      supervise, correct, or evaluate them. practitioners, researchers, devrel, ops - anyone who
+      thinks the "loop" deserves more design attention than it usually gets.
+    </p>
+    <p>
+      monthly meetups, a slack/discord, a growing library of human-in-the-loop design patterns,
+      and a roster of people who will reply within an hour when you ask "is this eval setup sane?"
+    </p>
+    <div class="tag-row"><span class="tag">ai</span><span class="tag">community</span><span class="tag">hitl</span><span class="tag">evals</span><span class="tag">oversight</span></div>
+  </article>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>i_am/</h2></div>
+  <div class="badge-cloud">
+    <span class="badge"><span class="ico">⌘</span> devrel · bolna (yc f25)</span>
+    <span class="badge"><span class="ico">▶</span> speaker · {{ count what=talks }} talks</span>
+    <span class="badge"><span class="ico">◎</span> ex-suprsend · ai devrel</span>
+    <span class="badge"><span class="ico">☁</span> ex-microsoft · azure core compute</span>
+    <span class="badge"><span class="ico">⌥</span> founder · project hitl</span>
+    <span class="badge"><span class="ico">🍵</span> co-founder · chae (matcha)</span>
+    <span class="badge"><span class="ico">⚙</span> arena ai safety scholar</span>
+    <span class="badge"><span class="ico">✈</span> private pilot</span>
+    <span class="badge"><span class="ico">♪</span> dj · still learning</span>
+    <span class="badge"><span class="ico">❀</span> crocheter</span>
+    <span class="badge"><span class="ico">✎</span> tech writer</span>
+    <span class="badge"><span class="ico">⌖</span> traveller</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>./decode.sh</h2></div>
+  <div class="code-window">
+    <div class="code-window-header">
+      <span class="cw-dot dot-red"></span><span class="cw-dot dot-yellow"></span><span class="cw-dot dot-green"></span>
+      <span class="cw-title">tanisha.decoded.js</span>
+    </div>
+    <pre class="code-window-body" id="cw-body"></pre>
+    <span class="cw-cursor" id="cw-cursor"></span>
+  </div>
+  <p class="embed-caption"><span class="prompt">▸</span> can you guess what gets logged? hint: it's not <code>nothing</code>.</p>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>off_screen/</h2></div>
+  <div class="fact-list">
+    <div class="fact"><span class="key">cockpit/</span><span class="val">private pilot license, garg aviation academy (2021). cessnas, light winds, lots of patience.</span></div>
+    <div class="fact"><span class="key">decks/</span><span class="val">learning to dj on weekends. melodic house, afro, the occasional bollywood blend.</span></div>
+    <div class="fact"><span class="key">hooks/</span><span class="val">crocheting is the closest thing i've found to compiling for the brain. the wip pile is embarrassing.</span></div>
+    <div class="fact"><span class="key">matcha/</span><span class="val">co-founder of chae. yes, i have opinions about whisks.</span></div>
+    <div class="fact"><span class="key">ai safety/</span><span class="val">faeb (arena) technical ai safety fellow, nov-dec 2025. evals, oversight, the unsexy bits that matter.</span></div>
+    <div class="fact"><span class="key">honors/</span><span class="val">hpair delegate · hult prize global semi-finalist · google women engineers scholar · smart india hackathon finalist.</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>find_me/</h2></div>
+  <ul class="contact-list">
+    <li><span class="label">email/</span> <a href="mailto:reachtanishasharma@gmail.com">reachtanishasharma@gmail.com</a></li>
+    <li><span class="label">linkedin/</span> <a href="https://linkedin.com/in/tanisha-sharma07">in/tanisha-sharma07</a></li>
+    <li><span class="label">github/</span> <a href="https://github.com/tanisha-byte">@tanisha-byte</a> · <a href="https://github.com/tanishaio">@tanishaio</a></li>
+    <li><span class="label">x/</span> <a href="https://twitter.com/tanishasharmax">@tanishasharmax</a></li>
+    <li><span class="label">speaking/</span> <a href="https://sessionize.com/tanishasharma/">sessionize.com/tanishasharma</a></li>
+    <li><span class="label">writing/</span> <a href="https://hashnode.com/@tansgrid">hashnode</a> · <a href="https://tansgrid.substack.com">substack</a></li>
+    <li><span class="label">community/</span> <a href="https://projecthumansintheloop.com">project hitl</a> · <a href="https://www.bolna.ai/builders">bolna builders</a></li>
+  </ul>
+</div>

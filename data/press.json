@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "video",
+    "title": "mcp dev summit seoul recording",
+    "url": "https://youtu.be/U_XD5NxO8KY",
+    "desc": "published by the agentic ai foundation."
+  },
+  {
+    "kind": "podcast",
+    "title": "devrel engineer explained",
+    "url": "https://youtu.be/hs9uybjdp7U",
+    "desc": "guest on kartik agarwal's podcast, jul 2026."
+  },
+  {
+    "kind": "press",
+    "title": "shiftmag: notifications could be smarter with ai",
+    "url": "https://shiftmag.dev/notifications-could-be-smarter-with-ai-so-why-arent-they-7087/",
+    "desc": "coverage of my shift kl talk."
+  },
+  {
+    "kind": "talk",
+    "title": "fork it! rouen 2026",
+    "url": "https://youtu.be/5qcWWPKU49o",
+    "desc": "\"ai developer advocate and private pilot\" - fork it! community."
+  },
+  {
+    "kind": "speaker",
+    "title": "mcp dev summit seoul speaker page",
+    "url": "https://mcpseoul2026.sched.com/speaker/tanisha.sharma",
+    "desc": "two sessions, aug 2026."
+  },
+  {
+    "kind": "speaker",
+    "title": "scale 23x speaker page",
+    "url": "https://www.socallinuxexpo.org/scale/speaker/tanisha-sharma",
+    "desc": "planetnix track, pasadena."
+  },
+  {
+    "kind": "oss",
+    "title": "n8n-nodes-bolna on npm",
+    "url": "https://www.npmjs.com/package/n8n-nodes-bolna",
+    "desc": "340+ installs since aug 2026."
+  },
+  {
+    "kind": "oss",
+    "title": "15 merged prs across bolna-ai",
+    "url": "https://github.com/pulls?q=is%3Apr+author%3Atanisha-byte+is%3Amerged",
+    "desc": "mcp, skills, web-call, build-with-bolna."
+  }
+]

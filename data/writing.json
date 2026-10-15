@@ -1,0 +1,141 @@
+{
+  "bolna_blog": [
+    {
+      "label": "oct 2026",
+      "title": "taking the second call with workflows",
+      "url": "https://www.bolna.ai/blog/taking-the-second-call-with-workflows",
+      "desc": "what happens after the first call ends - multi-step follow-ups with bolna workflows."
+    },
+    {
+      "label": "oct 2026",
+      "title": "graph agents: where it all started",
+      "url": "https://www.bolna.ai/blog/graph-agents-on-bolna",
+      "desc": "why a single prompt stops scaling, and the node-based voice flows that replaced it."
+    },
+    {
+      "label": "oct 2026",
+      "title": "how to get started with graph agents on bolna",
+      "url": "https://www.bolna.ai/blog/get-started-with-graph-agents-on-bolna",
+      "desc": "the hands-on follow-up."
+    },
+    {
+      "label": "sep 2026",
+      "title": "bigquery to clickhouse at 15m call minutes a day",
+      "url": "https://www.bolna.ai/blog/bigquery-to-clickhouse-15m-call-minutes",
+      "desc": "the analytics migration behind bolna's call data."
+    },
+    {
+      "label": "sep 2026",
+      "title": "shipping browser calls in under two weeks with kamailio and freeswitch",
+      "url": "https://www.bolna.ai/blog/browser-calls-kamailio-freeswitch",
+      "desc": "how web calling went from idea to production."
+    }
+  ],
+  "hashnode": [
+    {
+      "label": "may 2026",
+      "title": "hooking bolna voice calls up to slack",
+      "url": "https://tanishasharmax.hashnode.dev/hooking-bolna-voice-calls-up-to-slack",
+      "desc": "post-call summaries in slack, the moment a call ends."
+    },
+    {
+      "label": "apr 2026",
+      "title": "the last dev tool category where 'hello world' still takes two weeks",
+      "url": "https://tanishasharmax.hashnode.dev/the-last-dev-tool-category-where-hello-world-still-takes-two-weeks",
+      "desc": "why notification tooling is still one of the slowest categories to bootstrap, and what to do about it."
+    },
+    {
+      "label": "jul 2025",
+      "title": "built a talking news bot with elevenlabs and telegram in 30 minutes",
+      "url": "https://tanishasharmax.hashnode.dev/built-a-talking-news-bot-with-elevenlabs-and-telegram-in-30-minutes",
+      "desc": "an audio news bot with elevenlabs tts + the telegram bot api."
+    },
+    {
+      "label": "jul 2025",
+      "title": "getting started with suprsend inbox in a next.js application",
+      "url": "https://tanishasharmax.hashnode.dev/getting-started-with-suprsend-inbox-in-a-nextjs-application",
+      "desc": "a real-time in-app inbox in next.js with the suprsend react sdk."
+    },
+    {
+      "label": "may 2023",
+      "title": "internship experience at microsoft",
+      "url": "https://tanishasharmax.hashnode.dev/internship-experience-at-microsoft",
+      "desc": "the azure core compute internship - what i shipped, what i learned."
+    },
+    {
+      "label": "dec 2022",
+      "title": "unlock the benefits of parallel programming with the right platform",
+      "url": "https://tanishasharmax.hashnode.dev/unlock-the-benefits-of-parallel-programming-with-the-right-platform",
+      "desc": "parallel-programming primitives and where they actually pay off."
+    },
+    {
+      "label": "aug 2022",
+      "title": "key learnings from community classroom's tech-meetup",
+      "url": "https://tanishasharmax.hashnode.dev/key-learnings-from-community-classrooms-tech-meetup",
+      "desc": "notes from a community meetup."
+    },
+    {
+      "label": "aug 2022",
+      "title": "what is an open source project and how can a beginner contribute to it?",
+      "url": "https://tanishasharmax.hashnode.dev/what-is-an-open-source-project-and-how-can-a-beginner-contribute-to-it",
+      "desc": "a first-pr guide for beginners."
+    }
+  ],
+  "substack": [
+    {
+      "label": "oct 2026",
+      "title": "observe, orient, decide, act",
+      "url": "https://tansgrid.substack.com/p/observe-orient-decide-act"
+    },
+    {
+      "label": "sep 2026",
+      "title": "there are cities where i like myself more",
+      "url": "https://tansgrid.substack.com/p/there-are-cities-where-i-like-myself"
+    },
+    {
+      "label": "jul 2026",
+      "title": "what if being stable is how you actually become extraordinary?",
+      "url": "https://tansgrid.substack.com/p/what-if-being-stable-is-how-you-actually"
+    },
+    {
+      "label": "jul 2026",
+      "title": "things that aren't mine",
+      "url": "https://tansgrid.substack.com/p/things-that-arent-mine"
+    },
+    {
+      "label": "jun 2026",
+      "title": "galti maxxing part one: paris and rouen",
+      "url": "https://tansgrid.substack.com/p/galti-maxxing-part-one-paris-and"
+    },
+    {
+      "label": "jun 2026",
+      "title": "i don't buffer for people i love",
+      "url": "https://tansgrid.substack.com/p/i-dont-buffer-for-people-i-love"
+    },
+    {
+      "label": "may 2026",
+      "title": "the thing i am quietly losing",
+      "url": "https://tansgrid.substack.com/p/the-thing-i-am-quietly-losing"
+    },
+    {
+      "label": "apr 2026",
+      "title": "on trusting people anyway",
+      "url": "https://tansgrid.substack.com/p/on-trusting-people-anyway"
+    },
+    {
+      "label": "apr 2026",
+      "title": "something about calibration",
+      "url": "https://tansgrid.substack.com/p/something-about-calibration"
+    },
+    {
+      "label": "mar 2026",
+      "title": "bangalore ate something in me",
+      "url": "https://tansgrid.substack.com/p/bangalore-ate-something-in-me"
+    },
+    {
+      "label": "mar 2026",
+      "title": "on foundations",
+      "url": "https://tansgrid.substack.com/p/on-foundations"
+    }
+  ]
+}

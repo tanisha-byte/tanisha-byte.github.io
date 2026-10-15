@@ -1,0 +1,92 @@
+{
+  "talks": [
+    {
+      "id": "U_XD5NxO8KY",
+      "stamp": "mcp dev summit seoul",
+      "title": "two audiences, one markdown file: writing mcp docs an agent can actually use",
+      "desc": "with jyoti bisht · agentic ai foundation."
+    },
+    {
+      "id": "5qcWWPKU49o",
+      "stamp": "fork it! rouen",
+      "title": "my ai clone attended conferences while i flew planes",
+      "desc": "llms, rag and mcp - and a cessna."
+    },
+    {
+      "id": "hs9uybjdp7U",
+      "stamp": "podcast",
+      "title": "devrel engineer explained: salary, skills &amp; travel perks",
+      "desc": "guest on kartik agarwal's podcast."
+    }
+  ],
+  "bolna": [
+    {
+      "id": "c1a0Pv4EJuY",
+      "stamp": "bolna · mcp",
+      "title": "set up bolna mcp in your coding assistant",
+      "desc": "plug the bolna mcp server into claude code, cursor &amp; friends and build voice agents from your editor."
+    },
+    {
+      "id": "6pOiyQ7lCOI",
+      "stamp": "bolna · ep 02",
+      "title": "how to prompt a voice ai agent",
+      "desc": "personality, conversation flow, variables, guardrails - one prompt that survives real calls."
+    },
+    {
+      "id": "PS3nORqSxUE",
+      "stamp": "bolna · guide",
+      "title": "build your voice ai agent in under five minutes",
+      "desc": "zero to a talking agent, fast."
+    },
+    {
+      "id": "LBjgeg50-7U",
+      "stamp": "bolna · guide",
+      "title": "connect your plivo phone number to bolna",
+      "desc": "bring your own plivo number and wire it to a voice agent."
+    },
+    {
+      "id": "vmORcOnGeqE",
+      "stamp": "bolna · guide",
+      "title": "how to buy phone numbers on bolna",
+      "desc": "picking and buying a number for voice ai calling."
+    },
+    {
+      "id": "gF1CKM8sWNE",
+      "stamp": "bolna · launch",
+      "title": "introducing bolna agent studio",
+      "desc": "a voice ai agent in 10 minutes with agent studio."
+    },
+    {
+      "id": "9u-QCY40qS4",
+      "stamp": "bolna · insiders",
+      "title": "team bolna on the loose",
+      "desc": "bolna insiders - the team, off-script."
+    }
+  ],
+  "suprsend": [
+    {
+      "id": "551BunBn2wc",
+      "stamp": "suprsend",
+      "title": "build notifications like it's 2026 - suprsend mcp &amp; agent skills",
+      "desc": "how mcp + agent skills let ai assistants design and ship notification workflows for you."
+    },
+    {
+      "id": "qy7uriCsluI",
+      "stamp": "suprsend",
+      "title": "suprsend mcp setup in windsurf (using cli)",
+      "desc": "wiring up the suprsend mcp inside windsurf via the cli."
+    },
+    {
+      "id": "oyuWTNURVC8",
+      "stamp": "suprsend",
+      "title": "suprsend mcp setup in claude code",
+      "desc": "setting up the suprsend mcp inside claude code so the agent can build notification flows directly."
+    },
+    {
+      "id": "nJ9n_YlvBHo",
+      "stamp": "suprsend",
+      "title": "suprsend new relic dashboard setup in 2 mins",
+      "desc": "observability for your notification pipeline, fast."
+    }
+  ]
+}

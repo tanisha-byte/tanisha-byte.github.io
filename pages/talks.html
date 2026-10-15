@@ -1,0 +1,36 @@
+<!-- {"title": "talks", "nav": "talks", "description": "53+ talks, keynotes, workshops and podcasts by tanisha sharma - mcp, voice ai, devrel and developer experience."} -->
+<section class="hero">
+  <p class="hero-pre"><span class="prompt">tanisha@earth:~$</span> ls ~/talks | wc -l<span class="cursor"></span></p>
+  <h1>/talks</h1>
+  <p class="tagline">{{ count what=talks }} talks, keynotes and workshops across asia, europe, the us and the middle east - mcp, voice ai, docs, and developer experience.</p>
+  <div class="hero-actions">
+    <a class="btn" href="https://sessionize.com/tanishasharma/">./invite-me</a>
+    <a class="btn btn-secondary" href="mailto:reachtanishasharma@gmail.com">./email</a>
+  </div>
+</section>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>watch/ - recordings</h2></div>
+  {{ videos group=talks }}
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>recent/</h2><span class="count">highlights from {{ count what=talks }}</span></div>
+  {{ talks }}
+</div>
+
+<div class="section" id="videos">
+  <div class="section-heading"><span class="prompt">$</span><h2>youtube/ - bolna</h2></div>
+  <p class="lede">tutorials and launches from <a href="https://www.youtube.com/@BolnaVoiceAI">youtube.com/@BolnaVoiceAI</a>.</p>
+  {{ videos group=bolna }}
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>youtube/ - suprsend</h2></div>
+  {{ videos group=suprsend }}
+</div>
+
+<div class="section">
+  <div class="section-heading"><span class="prompt">$</span><h2>around_the_web/</h2></div>
+  {{ press }}
+</div>

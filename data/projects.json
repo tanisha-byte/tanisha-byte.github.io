@@ -1,0 +1,131 @@
+{
+  "bolna": [
+    {
+      "meta": "oss · built from scratch · 2026",
+      "name": "bolna mcp server",
+      "url": "https://github.com/bolna-ai/mcp",
+      "desc": "remote streamable-http mcp server with 90+ tools - agents, calls, batches, numbers, knowledge bases, dispositions. live at <a href=\"https://mcp.bolna.ai\">mcp.bolna.ai</a>.",
+      "tags": [
+        "mcp",
+        "claude",
+        "voice-ai"
+      ]
+    },
+    {
+      "meta": "oss · go · 2026",
+      "name": "bolna cli",
+      "url": "https://github.com/bolna-ai/cli",
+      "desc": "a go + charm tui for managing voice agents from the terminal. <code>go install github.com/bolna-ai/cli/cmd/bolna@latest</code>",
+      "tags": [
+        "cli",
+        "go",
+        "tui"
+      ]
+    },
+    {
+      "meta": "oss · npm · 2026",
+      "name": "n8n-nodes-bolna",
+      "url": "https://github.com/bolna-ai/n8n-nodes-bolna",
+      "desc": "the official bolna community node for n8n - trigger calls, batches and post-call automations from any workflow. 340+ installs. <a href=\"https://www.npmjs.com/package/n8n-nodes-bolna\">on npm</a>.",
+      "tags": [
+        "n8n",
+        "integration",
+        "npm"
+      ]
+    },
+    {
+      "meta": "oss · agent skills · 2026",
+      "name": "bolna agent skills",
+      "url": "https://github.com/bolna-ai/skills",
+      "desc": "skills that teach coding agents to build bolna voice agents - incl. the extraction designer i wrote. <code>npx skills add bolna-ai/skills</code>",
+      "tags": [
+        "agent-skills",
+        "claude-code"
+      ]
+    },
+    {
+      "meta": "demo · slack bot · 2026",
+      "name": "meow",
+      "desc": "a slack bot on top of the bolna mcp tools that explains why a call failed - raw logs in, root cause out. shown at demo day.",
+      "tags": [
+        "slack",
+        "mcp",
+        "rca"
+      ]
+    },
+    {
+      "meta": "side project · 2026",
+      "name": "roger-that",
+      "url": "https://github.com/tanisha-byte/roger-that",
+      "desc": "a deterministic eval harness for ai agents, built on real atc radiotelephony - where the pilot license meets the day job.",
+      "tags": [
+        "evals",
+        "aviation",
+        "agents"
+      ]
+    }
+  ],
+  "earlier": [
+    {
+      "meta": "oss · 2025",
+      "name": "creator-studio-skill",
+      "url": "https://github.com/tanishaio/creator-studio-skill",
+      "desc": "a cursor / claude code / codex agent skill for short-form content - reels, scripts, captions, calendars, trend research.",
+      "tags": [
+        "agent-skill",
+        "claude-code",
+        "content"
+      ]
+    },
+    {
+      "meta": "demo · 2025",
+      "name": "docusign-example-app",
+      "url": "https://github.com/tanishaio/docusign-example-app",
+      "desc": "end-to-end docusign integration demo - clone-and-go instead of reading 40 pages of api docs.",
+      "tags": [
+        "docusign",
+        "demo"
+      ]
+    },
+    {
+      "meta": "starter · 2025",
+      "name": "embeddable-template",
+      "url": "https://github.com/tanishaio/embeddable-template",
+      "desc": "a reusable starter for embedding suprsend ui components into customer apps.",
+      "tags": [
+        "template",
+        "react"
+      ]
+    },
+    {
+      "meta": "oss · 2025",
+      "name": "suprsend integration starters",
+      "desc": "3 open-source starter apps (node.js, python, react) plus playbooks for 10+ platforms including segment, twilio, aws sns, sendgrid.",
+      "tags": [
+        "starters",
+        "suprsend"
+      ]
+    },
+    {
+      "meta": "sih finalist · 2022",
+      "name": "holospeak",
+      "url": "https://github.com/tanisha-byte/HoloSpeak",
+      "desc": "smart india hackathon 2022 finalist - holographic display meets speech synthesis.",
+      "tags": [
+        "cv",
+        "speech",
+        "hackathon"
+      ]
+    },
+    {
+      "meta": "notebooks",
+      "name": "ai-ml-walkthrough",
+      "url": "https://github.com/tanisha-byte/AI-ML-walkthrough",
+      "desc": "practical ai/ml labs - computer vision, nlp, deep learning.",
+      "tags": [
+        "notebooks",
+        "ai/ml"
+      ]
+    }
+  ]
+}
